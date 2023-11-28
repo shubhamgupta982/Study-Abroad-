@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Pacifico&family=Poppins:wght@300;400&family=Sevillana&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Pacifico&family=Poppins:wght@300;400&family=Sevillana&family=Ubuntu:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.logo img {
+  width: 150px;
+  border-radius: 10%;
+  height: 60px;
+}
+
+
+
+header {
+  width: 100%;
+  height: 80px;
+  background: rgb(25, 25, 65);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 55px;
+
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo span {
+  padding: 15px;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: rgb(217, 861, 186);
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 05 10px;
+  text-decoration: none;
+  transition: color .5s;
+}
+
+.nav-bar ul li a:hover {
+  color: rgb(3, 20, 15);
+}
+
+.nav-bar.active{
+  height: 450px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------- Carosel section---------------------- */
+.carousel {
+  width: 100%;
+  
+
+}
+.carousel-inner img {
+  height: 80vh;
+  margin-left: 15px;
+margin-top: 15px;
+}
+/* ---------------- service section ------------------ */
+
+.service {
+  width: 75%;
+  align-items: center;
+  margin: auto;
+  padding-top: 100px;
+}
+.service h1 {
+  font-size: 54px;
+  font-weight: bold;
+  text-align: center;
+}
+.border{
+  border-radius: 1.5px solid transprarent;
+}
+.border:hover{
+  border: 1.5px sold white;
+}
+p {
+  font-size: 28px;
+  font-weight: 300;
+  padding: 15px;
+  text-align: center;
+}
+.row-1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.service-col h3 {
+  text-align: center;
+}
+.service-col {
+  background-color:whitesmoke;
+  padding: 30px 15px 15px 10px;
+  margin: 25px;
+  border-radius: 15px;
+}
+.service-col i {
+  font-size: 3rem;
+  color: rgb(165, 42, 136);
+}
+
+/* ---------------img----------------*/
+
+.img{
+  width: 100%;
+  height: 80%;
+}
+
+/* ---------------------- About Section ------------------- */
+.about {
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  margin-top: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: rgb(57, 171, 216);
+  border-radius: 20px;
+}
+.about li {
+  font-size: 22px;
+}
+ 
+
+.about h1 {
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-right  {
+margin-right: 8%;
+}
+
+
+/* ------------------------- get it now -------------------------- */
+
+.get-it-now {
+font-family: sans-serif;
+  width: 90%;
+  text-align: center;
+  background-color: rgb(57, 171, 216);
+  color: #0b0b0b;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+/* --------------------- team section --------------------- */
+
+
+.team {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid black; */
+  margin-top: 100px;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.team-col {
+  margin: 4px;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1px;
+  margin-top: -30px;
+  border: 1px solid rgb(223, 223, 236);
+  border-radius: 7px;
+}
+
+.team-col img {
+  width: 220px;
+  height: 225px;
+  padding: 4px;
+  /* border: 2px solid rgb(172, 168, 168); */
+}
+
+
+.team-col button {
+  margin: 20px;
+  padding: 20px;
+  height: 47px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  border: none;
+}
+
+
+.team-col button .fa-brands {
+  font-size: 35px;
+  padding: 5px;
+  margin: auto;
+  color: rgb(73, 73, 77);
+  margin-top: -27px;
+}
+
+
+/* ------------------------------ review section -------------------------------- */
+
+.review {
+  width: 90%;
+  /* background-color: rgb(34, 112, 143); */
+  background-color: rgb(57, 171, 216);
+
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  margin-top: 70px;
+  color: #fff;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: sans-serif;
+  padding: 4%;
+  padding-bottom: 2%;
+
+}
+
+.review hr {
+  border: 1px solid #fff;
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.review .row-1 .review-col .para {
+  width: 80%;
+  margin: auto;
+  text-align: start;
+  margin-top: -30px;
+  margin-bottom: 40px;
+  /* background-color: rgb(57, 171, 216); */
+  background-color: rgb(34, 112, 143);
+  padding: 20px;
+  border-radius: 10px
+}
+
+.review-col .review-content img {
+  width: 85px;
+  height: 85px;
+  border-radius: 60%;
+}
+
+.review .review-col .review-content {
+  margin-top: 70px;
+  display: flex;
+  margin-left: 60px;
+
+}
+
+.review .review-col .review-content .content {
+  width: 80%;
+  text-align: start;
+  margin-right: 20px;
+  margin-bottom: 2%;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+
+}
+
+
+.content {
+  flex-direction: column;
+  width: 10%;
+  margin-top: 5px;
+}
+
+.content h3 {
+  font-size: 25px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+
+
+
+
+/* ------------------------------- contact section --------------------------------------- */
+
+.contact h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.contact hr {
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.contact {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(27, 115, 167);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5%;
+}
+
+.contact-col {
+  margin-left: 20px;
+}
+
+.content-col p {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  text-align: start;
+  font-size: 20px;
+}
+
+
+.contact button {
+  color: #fff;
+  border: 1px solid rgb(250, 176, 225);
+  position: relative;
+  left: 43rem;
+}
+
+
+.contact-col input,
+.contact-col textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 19px;
+  outline: none;
+  border: 1px solid #fff;
+}
+
+
+
+/* ------------------------------------- Media Query ------------------------------------------- */
+
+
+@media screen and (max-width: 950px) {
+
+  header {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu .line {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 6px 0;
+  }
+
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: rgb(52, 52, 55);
+    transition: 0.2s;
+    overflow: hidden;
+  }
+
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    z-index: 999;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  .nav-bar ul li a{
+    margin-bottom: 12px;
+  color: red;
+  }
+
+  .carousel,
+  .carousel img {
+    height: 70vh;
+  }
+
+  .service {
+    margin-top: 50px;
+    padding: 20px;
+
+  }
+
+  .service h1 {
+    font-size: 2.1rem;
+  }
+
+  .service p {
+    font-size: 14px;
+  }
+
+  .row-1 {
+    display: block;
+  }
+
+  .service-col {
+    margin: 10px;
+  }
+
+  .service-col h1 {
+    font-size: 20px;
+  }
+
+  .service-col p {
+    font-size: 14px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 15px;
+  }
+
+  .about h3 {
+    text-align: center;
+  }
+
+
+  .get-it-now {
+    padding: 20px;
+  }
+
+  .get-it-now h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .get-it-now h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .get-it-now p {
+    font-size: 15px;
+  }
+
+  .get-it-now .btn {
+    width: 90%;
+  }
+
+  .team {
+    margin-top: 30px;
+  }
+
+  .team h1 {
+    font-size: 30px;
+  }
+  .team p {
+    font-size: 16px;
+  }
+  .team-col {
+    margin-top: 20px;
+  }
+  .review p {
+    font-size: 18px;
+  }
+  .review-content img,
+  .review-content h3,
+  .review-content p {
+    display: none;
+  }
+  .gallery img {
+    margin: 10px;
+  }
+  .contact .row-1 {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
